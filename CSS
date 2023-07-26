@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#calculator {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#calculator label, 
+#calculator input,
+#calculator button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#calculator button {
+    padding: 5px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#calculator button:hover {
+    background-color: #0056b3;
+}
